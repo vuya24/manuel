@@ -1,4 +1,4 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Manuel - Pula | rental, transportation &amp; <br> accommodation services</title>
