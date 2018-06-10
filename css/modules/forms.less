@@ -1,0 +1,64 @@
+input[type="text"], 
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+textarea,
+select {
+	padding: 10px;
+	font-size: 1em;
+	background-color: #fff;
+	font-family: @font-base;
+    font-weight: 400;
+	border: 1px solid #d0d0d0;
+    &::placeholder {
+        color: #d0d0d0;
+        font-family: @font-base;
+        font-weight: 400;
+    }
+}
+label {
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+    font-weight: 400;
+    color: #666;
+}
+
+textarea {
+	resize: vertical;
+}
+input[type="submit"] {
+	margin-bottom:3rem !important;
+}
+
+form {
+	input[type="text"],
+	input[type="email"],
+	input[type="search"],
+    input[type="tel"],
+	textarea,
+	select {
+		float: left;
+		width: 100%;
+		margin-bottom: 15px;
+        &:focus,
+        &:hover {
+            border-color: @brand-primary;
+        }
+	}
+}
+
+.newsletter {
+	input[type="email"] {
+		padding: 8px;
+		margin: 0;
+	}
+	input[type="submit"] {
+		background-color: @brand-third;
+		&:hover {
+			color: #fff;
+			background-color: darken(@brand-third, 10%);
+		}
+	}
+}
+
