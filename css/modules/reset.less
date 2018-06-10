@@ -1,0 +1,106 @@
+/*------------------------------------------------------------------
+
+[1. Reset and default styles]
+
+------------------------------------------------------------------*/
+ 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+html {
+	font-size: @font-size;
+	font-family: @font-base;
+	line-height: @line-height;
+	overflow-y: scroll;
+}
+
+body {
+	background-color: #fff;
+    overflow-x:hidden;
+} 
+
+hr {
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ddd;
+	padding: 0;
+	margin: .5em 0 .5em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+    cursor: pointer;
+	&:hover {
+        outline: none;
+		text-decoration: none;
+	}
+	// IE 10 Fix for not display borders
+	img {
+		border: 0;
+	}
+}
+
+a, a:hover, a:focus, a:active {
+    color:@brand-primary !important;
+    text-decoration:none !important;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.pad-40 {
+	padding: 40px 0;
+}
+
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.container-fluid {
+    padding:0 !important;
+}
