@@ -17,3 +17,7 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/manuel.iml
