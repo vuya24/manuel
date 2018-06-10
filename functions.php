@@ -7,12 +7,7 @@ if (function_exists('add_theme_support')) {
     add_theme_support('post-thumbnails');
 }
 
-function isa_remove_jquery_migrate( &$scripts) {
-    if( !is_admin() ) {
-        $scripts->remove( 'jquery');
-    }
-}
-add_filter( 'wp_default_scripts', 'isa_remove_jquery_migrate' );
+
 
 add_action( 'widgets_init', 'my_register_sidebars' );
 function my_register_sidebars() {
