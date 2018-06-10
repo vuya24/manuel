@@ -22,7 +22,6 @@
 		  s.parentNode.insertBefore(wf, s);
 	  })(document);
 	</script>
-		<script>
     </head>
     <body>
         
