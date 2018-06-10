@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>css/bootstrap-grid.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>css/bootstrap-reboot.min.css">
+        
         <script type='text/javascript'>
 	  WebFontConfig = {
 		  google: {
@@ -32,12 +33,12 @@
                 <div class="top-bar">
                     <div class="container">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-md-4">
                                 <a class="logo" href="<?php echo home_url();?>">Manuel - Pula
                                 <span>rental, transportation &amp; <br> accommodation services</span>
                                 </a>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4">
                                 <a href="tel:+38552211255">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/phone.png" width="45px" height="45px">
                                     <div>
@@ -46,7 +47,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4">
                                 <a href="<?php echo home_url();?>/contact-us">
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/pin.png" width="45px" height="45px">
                                     <div>
@@ -89,7 +90,7 @@
                                         </li>
                                         <li>
                                             <div class="drpdwn">
-                                                <a href="<?php echo home_url();?>/acommodation" class="arrw">Acommodation</a>
+                                                <a href="<?php echo home_url();?>/acommodation" class="arrw">Apartments</a>
                                                 
                                                 <ul class="menu">
                                                     <li>

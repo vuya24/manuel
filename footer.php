@@ -1,4 +1,4 @@
-
+ 
 <div class="clearfix"></div>
 <footer>
             <div class="container">
@@ -102,7 +102,7 @@
                                 <label>E-mail adress:</label>
                                 <input type="email" name="email" required>
                                 <input type="checkbox" name="terms" required>
-                                <label style="font-size:.85em;margin:10px 0 20px;">I accept the <a href="#" style="font-weight:900;">Terms of agreeement</a></label>
+                                <label class="terms">I accept the <a href="#">Terms of agreeement</a></label>
                                 <input type="submit" value="Confirm" class="btn">
                             </form>
                         </div>

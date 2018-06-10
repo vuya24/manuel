@@ -12,7 +12,7 @@ get_header();
 
         
         <main>
-            <section class="hero-index" style="background-image:url('images/hero-shore.jpg');">
+            <section class="hero-index" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/hero-shore.jpg');">
                 
             </section>
         </main>
