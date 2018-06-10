@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Template Name: About us
+Template Name: Useful links
 */
 
 
