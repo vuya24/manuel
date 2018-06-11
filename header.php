@@ -1,4 +1,4 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Manuel - Pula | rental, transportation &amp; <br> accommodation services</title>
@@ -6,10 +6,12 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>css/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>css/bootstrap-reboot.min.css">
-        
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-reboot.min.css">
+
+        <?php wp_head(); ?>
+
         <script type='text/javascript'>
 	  WebFontConfig = {
 		  google: {

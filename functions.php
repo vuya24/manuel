@@ -7,12 +7,24 @@ if (function_exists('add_theme_support')) {
     add_theme_support('post-thumbnails');
 }
 
-function isa_remove_jquery_migrate( &$scripts) {
-    if( !is_admin() ) {
-        $scripts->remove( 'jquery');
-    }
+
+
+add_action( 'widgets_init', 'my_register_sidebars' );
+function my_register_sidebars() {
+    /* Register the 'primary' sidebar. */
+    register_sidebar(
+        array(
+            'id'            => 'primary',
+            'name'          => __( 'Primary Sidebar' ),
+            'description'   => __( 'A short description of the sidebar.' ),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        )
+    );
+    /* Repeat register_sidebar() code for additional sidebars. */
 }
-add_filter( 'wp_default_scripts', 'isa_remove_jquery_migrate' );
 
 // Default 
 include 'functions/misc.php';
