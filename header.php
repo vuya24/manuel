@@ -74,25 +74,14 @@
                                             <a href="<?php echo home_url();?>/news">News</a>
                                         </li>
                                         <li>
-                                            <div class="drpdwn">
-                                                <a href="<?php echo home_url();?>/rent-a-car" class="arrw">Rent-a-car</a>
-                                                
-                                                <ul class="menu">
-                                                    <li>
-                                                        <a href="<?php echo home_url();?>/vehicles">Vehicles</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="<?php echo home_url();?>/car-reservation">Reserve now!</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            <a href="<?php echo home_url();?>/rent-a-car">Rent-a-car</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo home_url();?>/transfer">Transfer</a>
                                         </li>
                                         <li>
                                             <div class="drpdwn">
-                                                <a href="<?php echo home_url();?>/acommodation" class="arrw">Apartments</a>
+                                                <a href="<?php echo home_url();?>/apartments" class="arrw">Apartments</a>
                                                 
                                                 <ul class="menu">
                                                     <li>
@@ -109,9 +98,12 @@
                                         </li>
                                         <li>
                                             <div class="drpdwn">
-                                                <a href="<?php echo home_url();?>/about-us" class="arrw">About us</a>
+                                                <a class="arrw">Other</a>
                                                 
                                                 <ul class="menu">
+                                                    <li>
+                                                        <a href="<?php echo home_url();?>/about-us">About us</a>
+                                                    </li>
                                                     <li>
                                                         <a href="<?php echo home_url();?>/pula">Pula</a>
                                                     </li>
