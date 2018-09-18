@@ -1,11 +1,11 @@
- 
+  
 <div class="clearfix"></div>
 <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-xs-12 col-md-6">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-xs-12 col-sm-6">
                                 <div class="foot">
                                     <a class="logo" href="<?php echo home_url();?>">Manuel - Pula
                                         <span>rental, transportation &amp; <br> accommodation services</span>
@@ -32,7 +32,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-xs-12 col-sm-6">
                                 <div class="foot">
                                     <h2>Useful links</h2>
                                     <ul>
@@ -52,13 +52,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-12">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.650201105987!2d13.846519115958108!3d44.86941547909842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477cd2e00143415d%3A0xfa3c867e4b03860f!2sGiardini+10%2C+52100%2C+Pula!5e0!3m2!1shr!2shr!4v1528497379142" width="100%" height="150px" frameborder="0" style="border:0; width:460px;display:block;position:relative;top:-1rem;left:15px;" allowfullscreen></iframe>
+                                <div class="col-xs-11 col-md-12">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.650201105987!2d13.846519115958108!3d44.86941547909842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477cd2e00143415d%3A0xfa3c867e4b03860f!2sGiardini+10%2C+52100%2C+Pula!5e0!3m2!1shr!2shr!4v1528497379142" width="100%" height="150px" frameborder="0" style="border:0; max-width:460px;display:block;position:relative;top:-1rem;left:15px;" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="foot">
                             <h2>Navigation</h2>
                             <ul class="bullets">
@@ -92,7 +92,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="foot">
                             <h2>Stay connected</h2>
                             <p>
@@ -112,7 +112,7 @@
             <div class="bot-bar">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-md-12">
                             <div class="copy">
                                 <p>Manuel - Pula © 2018 All rights reserved.</p>
                             </div>
